@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-        Starter APP
+        Virtual Tour
     </title>
     <!-- CSS files -->
     <link href="/assets/css/tabler.min.css?1684106062" rel="stylesheet" />
@@ -28,9 +28,9 @@
 </head>
 
 <body>
-    @include('sweetalert::alert')
     <script src="/assets/js/demo-theme.min.js?1684106062"></script>
     <div class="page">
+        @include('sweetalert::alert')
         <!-- Navbar -->
         @include('public.layouts.header')
 
